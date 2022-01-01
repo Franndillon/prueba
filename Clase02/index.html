@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - Clase 02</title>
+    <!-- Importación de fuente desde Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Implementación de CSS de forma externa -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Mail de contacto: anahiforesi.educacionit@gmail.com -->
+    
+    <a id="top"></a> <!-- Ancla a la que apunta el link href="#top" -->        
+    <header> <!-- Título, Logo, Barra de navegación --> 
+        <h1>HTML5 - Clse 02</h1>
+        <nav> <!-- Barra de mavegación -->
+            <a href="#elemSem" title="Vínculo a elementos semanticos">Elementos Semanticos</a> |
+            <a href="#navegacion" title="Vínculo a navegacion">Vínculos</a> |
+            <a href="#imagenes" title="Vínculo a imagenes">Imágenes</a> |
+            <a href="#CSS" title="Vínculo a css">CSS</a>
+        </nav>
+    </header>    
+    <main> <!-- Contenido principal de la página -->
+        <!-- Elementos semánticos -->
+        <section id="elemSem"> <!-- Elemento con atributo al que id al que apunta el link href="#elemSem" -->
+            <h1>Elementos Semánticos <a href="#top"><img id="flecha" src="flecha-hacia-arriba.png" alt="Imagen como vínculo"></a><!-- Navegación al ancla id="top" --></h1>
+            <p>
+                Toda etiqueta en HTML tiene una conotación semántica. Gráficamente, <strong> y <b> se ven igual pero cuando los motores de búsqueda leen la etiqueta <strong> saben que el los elementos que contiene son relevantes para la página y, por lo tanto, quedan destacados en la misma. 
+                Por otra parte, existen etiquetas HTML que sólo tienen conotación semántica y, por lo tanto, no afectarán a la visualización pero que son fundamentales para el armado y posicionamiento de una página web.
+            </p>    
+            <h2>Elementos que no pueden faltar: </h2>
+            <ul>
+                <li>Header: Referente al título de la página</li>
+                <li>Nav: Navegación de la página</li>
+                <li>Main: Contenido principal de la página</li>
+                <li>Footer: Información adicional (copyright)</li>
+            </ul>
+            <h2>Otros elementos semánticos: </h2>
+            <p>Todos se ubican dentro del main</p>
+            <ul>
+                <li>Secction: Para generar una sección dentro de una página</li>
+                <li>Article: Para agregar artículos</li>
+                <li>Aside: Barra lateral</li>
+                <li>Figure: Permite vincular semánticamente una imagen con su descripción (figcaption)</li>
+            </ul>  
+            <footer>
+                <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure" target="_blank"><small>Información adicional</small></a>
+            </footer>            
+        </section>
+
+        <!-- Vínculos (links) -->
+        <section>
+            <a id="navegacion"></a>
+            <h1>Vínculos de navegación <a href="#top"><img id="flecha" src="flecha-hacia-arriba.png" alt="Imagen como vínculo"></a><!-- Navegación al ancla id="top" --></h1>            
+            <p>Los vínculos (o links) nos permiten conectar nuestra web con otras o distintos elementos en nuestra propia web. Existen dos tipos de vínculos:</p>
+            <ul>
+                <li>Relativos: Utilizados generalmente para interconectar elementos de nuestra propia wbe</li>
+                <li>Absolutos: Utilizados generalmento para traer elementos de webs externas</li>
+                <li>Anclas: Las anclas nos permiten crear una navegación entre distintas secciones de una misma página. Para armar una navegación entre secciones, hay que crear anclas (elementos a con el atributo id) y un link a esa ancla (elementos a con atributo href)</li>
+            </ul>
+            <h1>Vínculos de funcionalidad</h1>
+            <p>Existen vínculos que nos permiten desatar una función distinta a la de navegación, como por ejemplo generar una descarga o mandar un mail. Cada función corresponde a un atributo de la etiqueta a diferente.</p>
+            <ul>
+                <li>Mandar mail: Un vínculo de mail se crea agregando el atributo mailto:"direcciondecorreo"</li>
+            </ul>
+            <footer>
+                <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks" target="_blank"><small>Información adicional</small></a>
+            </footer>            
+        </section>
+
+        <!-- Inserción de imágenes -->
+        <section>
+            <a id="imagenes"></a>
+            <h1>Imágenes <a href="#top"><img id="flecha" src="flecha-hacia-arriba.png" alt="Imagen como vínculo"></a><!-- Navegación al ancla id="top" --></h1>
+            <p>Las imágenes pueden ser incluidas de forma local (para lo que necesitamos subirlas a nuestro servidor) o de forma remota utilizando el link a la imagen que encontramos en internet</p>
+            <h2>Inserción de imagen local</h2>
+            <img src="imagen1.jpg" alt="Texto a mostrar en caso de que no se cargue la imagen">
+            <img src="" alt="Imagen con link roto">
+            <h2>Inserción de imagen externa</h2>
+            <figure> <!-- Declaración de la imagen con descripción -->
+                <img src="https://www.campusmvp.es/catalogo/repository/product/Curso-online-HTML-CSS.png" alt="Texto a mostrar en caso de que no se cargue la imagen">
+                <figcaption> <!-- Descripción de la imagen -->
+                    <p>Imagen insertada usando una URL externa</p>
+                </figcaption>
+            </figure>
+            
+            <footer>
+                <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML" target="_blank"><small>Información adicional</small></a>
+            </footer>
+        </section>
+
+        <!-- CSS -->
+        <section>
+            <a id="CSS"></a>
+            <h1>CSS <a href="#top"><img id="flecha" src="flecha-hacia-arriba.png" alt="Imagen como vínculo"></a><!-- Navegación al ancla id="top" --></h1>
+            <section>
+                <h2>Google Fonts</h2>
+                <p id="googleFont">A la hora de elegir una tipografía para nuestra página podemos utilizar las fuentes seguras o generar la importación de una fuente externa. Google Fonts es una página propiedad de google que contiene fuentes de uso libre que podemos importar a nuestra web para aplicarla utilizando la propiedad font-family</p>
+                <footer>
+                    <a href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Web_fonts" target="_blank"><small>Información adicional</small></a>
+                </footer>
+            </section>           
+            <section>
+                <h2>Pseudo-Clases</h2>
+                <p>
+                    Las Pseudo-Clases son un tipo de selector CSS que nos permiten modificar las propiedades de los elementos en determinados o cuando se cumplan ciertas condiciones. 
+                    Un elemento en el que se vé claramente esto es el elemento a:
+                </p>
+                <ul>
+                    <li>a:hover = Cuando le pasamos el mouse por arriba</li>
+                    <li>a:link = Cuando todavía no visitamos el link</li>
+                    <li>a:visited = Cuando ya visitamos el link</li>
+                    <li>a:active = Cuando el link se encuentra activo</li>
+                </ul>
+                <footer>
+                    <a href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_blank"><small>Información adicional</small></a>
+                </footer>
+            </section>            
+        </section>
+    </main>
+    <br> <!-- Salto de línea -->
+    <hr> <!-- Separación con lína horizontal -->
+    <footer id="footerMain"> <!-- Información adicional de la página. Copyright, mailto, etc -->
+        &copy;Copyright: Anahí Foresi <a href="#top"><img id="flecha" src="flecha-hacia-arriba.png" alt="Imagen como vínculo"></a><!-- Navegación al ancla id="top" -->
+    </footer>  
+</body>
+</html>

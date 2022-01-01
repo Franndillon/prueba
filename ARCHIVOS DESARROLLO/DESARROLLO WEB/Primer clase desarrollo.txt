@@ -1,0 +1,31 @@
+Surgió el protocolo de marcado de hipertexto.
+Es el sistema de distribución de documentos que utiliza internet para la difusión a los mismos.
+
+Podríamos decir que el HTML se encarga de definir el “esqueleto” de la página.
+
+UNIDADES DE MEDIDA MAS UTILIZADAS: PX Y %
+
+1 REM = 10 PX
+
+ESTILOS DE FUENTES
+
+<HTML>
+      <head>
+            <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+Font-weight: 100/200/300 (espeezor de letra)
+Font-style: normal/ ...
+Line-height: 10/50px
+letter
+
+text-transform: capitalize (todas las primeras letras mayuscula)
+text-align: rigth/left
+
+
+
+Cuando ingresamos esa dirección en un navegador, esta se traduce en un IP a través de una base de datos distribuida conocida como DNS. 
+Este IP corresponde a un ordenador lejano llamado Servidor.
+Ejemplo Google: 172.217.0.131
+Este Servidor atiende la solicitud y responde con los contenidos de la página Web deseada.
+El ordenador recibe estos contenidos y “dibuja” la página web.
+

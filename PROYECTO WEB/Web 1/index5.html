@@ -1,0 +1,95 @@
+<!DOCTYPE html> <!-- Declaración de tipo de documento y versión -->
+<html lang="en">
+<head>
+    <!-- <meta> Etiqueta de información para el navegador y los robots de búsqueda -->
+    <meta charset="UTF-8"> <!-- Tipo de codificación del lenguaje -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Genera compatibilidades con Microsoft Edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permite la lectura del ancho de pantalla -->
+    <title>Mi Primer HTML</title> <!-- Título del documento. Fundamental para el posicionamiento -->
+    <!-- Agregar CSS de forma interna -->
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <!-- Mail de contacto: anahiforesi.educacionit@gmail.com -->
+    <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML" target="_blank">Información adicional etiqueta meta</a>
+
+    <h1>Primeros Elementos HTML</h1>
+
+    <h2>Enunciados(h1-h6)</h2>
+    <p>Los enunciados permiten marcar un contenido con importancia.
+    Existen seis niveles de enunciados. El número 1 es el enunciado con mayor importancia, y el 6 el de
+    menor importancia. No es obligatorio utilizar todos los niveles de enunciados, se puede alterar el
+    orden y también se pueden reutilizar la cantidad de veces que se requiera.</p>
+
+    <h2>Párrafos</h2>
+    <p>Los párrafos sirven para contener nuestro texto, no debería trabajarse ningún texto sin estar dentro o
+    anidado (estar dentro de una etiqueta) en un elemento de HTML.
+    Recordemos que la importancia de los elementos es su valor semántico. Cada elemento significa algo y
+    eso no sólo es importante para el usuario común, sino también para los programas o elementos que leen
+    nuestra página como los navegadores o robots de búsqueda.</p>
+
+    <h2>Elemento br</h2>
+    <p>El elemento br es un salto de línea. Esto significa que es un punto y aparte. Permite generar una línea
+    nueva dentro de, por ejemplo, <br> un párrafo</p>
+
+    <h2>Elementos Strong y Em</h2>
+    <p>Los elementos strong y em, nos permiten mejorar la accesibilidad y el posicionamiento de nuestra web porque los robots de búsqueda y de lectura actuan de forma especial al encontrar estas etiquetas. Strong visualiza el texto destacado en negrita y em en itálica. Son elementos de línea</p>
+
+    <h2>Elementos de línea vs Elementos de bloque</h2>
+    <p>Los elementos de línea, son aquellos elementos que ocupan sólo el espacio en que son generados. Strong y Em son claros ejemplos. Mientras que los elementos de bloque son aquellos que ocupan el ancho total de la página, sin importar el tamaño de su contindo. El párrafo, es un elemento de bloque.</p>
+
+    <h2>Listas</h2>
+    <h3>Ordenadas</h3>
+    <ol>
+        <li>Numeran los elementos que contienen</li>
+        <li>Puede modificarse el tipo de numeración mediente el atributo type</li>
+    </ol>    
+    <h4>Valores que puede recibir type:</h4>
+    <ol>
+        <li type="1">1: Ordena con números decimales (Por defecto)</li>
+        <li type="a">a: Orderna alfabéticamente con minúsculas </li>
+        <li type="A">A: Orderna alfabéticamente con mayúsculas</li>
+        <li type="I">I: Ordena con números romanos en minúsculas</li>
+        <li type="i">i: Ordena con números romanos en mayúsculas</li>
+    </ol>    
+    <h3>Desordenadas</h3>
+    <ul>
+        <li>No otorgan ningún orden a los elementos que contienen</li>
+        <li>Puede modificarse el tipo de marca mediante el atributo type</li>        
+    </ul>
+    <h4>Valores que puede recibir type: </h4>
+    <ul>
+        <li type="disc">disc: Circulo relleno(Por defecto)</li>
+        <li type="circle">circle: Circulo vacío </li>
+        <li type="square">square: Cuadrado relleno</li>
+    </ul>
+
+    <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals" target="_blank">Información adicional sobre formato de texto</a>
+
+    <h2>CSS</h2>
+    <ul>
+        <li>Sus Siglas representan Cascading Style Sheets es decir Hoja de estilo en cascada.</li>
+        <li>Se usa para diseñar la forma de presentar los documentos HTML al usuario.</li>
+        <li>Implementa el estilo sobre los elementos previamente estructurados en HTML.</li>
+        <li>Las propiedades de CSS son heredables</li>
+    </ul>
+    <h3>Propiedad color</h3>
+    <p style="color:blue">Cambia el color del texto</p> <!-- Implementación de CSS inline -->
+    <h3>Propiedad background-color</h3>
+    <p style="background-color: black; color: white">Background-color y color</p>
+    <h3>Propiedad font-family</h3>
+    <p>Permite modificar la tipografía</p>
+    <ul>
+        <li style="font-family: serif;">Serif</li>
+        <li style="font-family: sans-serif;">Sans-Serif</li>
+        <li style="font-family: cursive;">Cursive</li>
+        <li style="font-family: monospace;">Monospace</li>
+    </ul>
+    
+    <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank">Información adicional sobre CSS</a>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body { font-family: cursive;
+    color: grey;
+    background-color: black;
+
+
+}
+
+
+a:hover{color: coral;}
+a:visited{color: deeppink;}
+a:active{color:burlywood;}

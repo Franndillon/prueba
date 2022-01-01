@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        //Realizar un programa que:
+        //1) Solicite al usuario su nomnre utilizando la funcion prompt
+        //2) Concadenar ese nombre junto al mensaje, "¡Bienvenido, <nombre ingresado>!"
+        //3) Insertar en el body utilizando el DOCUMENT.WRITE() y que este dentro de un elemento h2
+
+        //1
+        let nombreUsuario = prompt("ingrese su nombre")
+
+        //2
+        let valorNombre = (nombreUsuario)
+        let concadenacion = `¡Bienvenido, ${valorNombre}!`
+        alert(concadenacion)
+
+        //3
+        document.write(`<h2> ${concadenacion} </h2>`)
+
+    
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

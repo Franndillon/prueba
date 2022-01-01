@@ -1,0 +1,16 @@
+CLASE 2
+
+MODELOS DE CAJAS.
+
+etiquetas=cajas
+
+
+
+ <link href="index.css" rel="stylesheet" type="text/css"/>
+
+
+DISPLAY
+
+display:block
+display:inline
+display;inline-block

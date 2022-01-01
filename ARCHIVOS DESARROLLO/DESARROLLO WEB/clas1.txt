@@ -1,0 +1,47 @@
+HTML:se escribe con "elementos" o "nodos", constituidos por etiquetas, contenido y atributos
+ESQUELETO DE NUESTRA PAGINA
+<etiqueta> </etiqueta>   <---- para cerrar la etiqueta
+
+
+<etiqueta> CONTENIDO </etiqueta>
+
+<etiqueta atributos="valor" id="inicio pagina cabecera titulo"> CONTENIDO </etiqueta>
+
+
+
+ATRIBUTOS DE HTML: <a href= Links como: "https://www.google.com.ar" entre comillas> Link a google </a>
+                      target="_blank" <--- atributo para direccionar el link a una nueva pestaña.
+
+TEXTOS SIEMPRE: <p>texto</p> 
+
+LISTAS:
+Lista ordenada:
+<ol>
+   <li>Elemento1</li>
+   <li>Elemento2</li>
+   <li>Elemento3</Li>
+</ol>
+Mostrara:
+1.Elemento1
+2.Elemento2
+3.Elemento3
+
+Lista desordenada:
+<ul>
+  <li>Elemento 1 </li>
+  <li>Elemento 2 </li>
+  <li>Elemento 3 </li>
+</ul>                      
+
+Mostrará:
+*Elemento 1
+*Elemento 2 
+*Elemento 3
+
+
+                                  CSS
+
+
+class="CSS" se identifica en panel css comenzando con un punto, ej: .CSS { 
+id="titulo" indicadores que se identifican en el panel css comenzando con un #, ej: #titulo {
+text_align: center

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Adicionales</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <form action="codigo.php" method="post">
+        <label>Nombre <input required type="text" placeholder="Usuario" style="margin-left: 1.5%;"> </label> <br>
+        <label>Password <input required type="password" placeholder="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" style="margin-left: 0.2%;"></label> <br>
+        <label>Edad <input required type="number" style="margin-left: 4%;"></label> <br>
+        <label>E-mail <input type="email" placeholder="info@dominio.com" style="margin-left: 2.6%;"></label>
+        <button>Enviar</button> <br>
+
+        <input type="radio" value="casado" name="estado">
+        <input type="radio" value="soltero" name="estado">
+
+    </form>
+    <form action="codigo.php">
+        <textarea cols="30" rows="10"></textarea>
+
+
+    </form>
+</body>
+</html>

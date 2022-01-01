@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let edadUser = prompt("Ingrese una edad")
+        let edadConvertida = parseInt(edadUser)
+
+        if(0 < edadConvertida && edadConvertida <=15){
+            document.write("No podes sacar el registro")
+        }
+        else if(edadConvertida == 16 || edadConvertida == 17){
+            document.write("Podes sacar el registro con permiso de sus padres")
+        }
+        else if(18 <= edadConvertida && edadConvertida < 65){
+            document.write("Podes sacar el registro")
+        }
+        else if(65 <= edadConvertida){
+            document.write("Lo podes sacar por un año")
+        }
+    
+
+
+
+
+    </script>
+
+    
+</body>
+</html>

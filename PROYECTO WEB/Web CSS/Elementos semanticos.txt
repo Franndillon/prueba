@@ -1,0 +1,14 @@
+<header></header>
+<nav></nav>
+<main></main>
+<section></section>
+<article></article>
+<aside></aside>
+<footer></footer>
+
+modelo de caja
+
+Width: ancho
+Height: alto
+Margin: espacio hacia afuera
+Padding: espacio hacia adentro
